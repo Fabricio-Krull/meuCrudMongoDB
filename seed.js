@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 import dotenv from "dotenv";
-import Product from "./models/productModel.js"; // Ajuste o caminho se necessário
+import Product from "./src/models/productModel.js"; // Ajuste o caminho se necessário
 
 dotenv.config();
 
