@@ -4,7 +4,7 @@ Este projeto consiste em uma API REST desenvolvida em **Node.js** com **Express*
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **Node.js**
 - **Express**
@@ -12,7 +12,7 @@ Este projeto consiste em uma API REST desenvolvida em **Node.js** com **Express*
 
 ---
 
-## 🚀 Como Rodar o Servidor
+## Como Rodar o Servidor
 
 ### 1. Pré-requisitos
 Certifique-se de ter instalado na sua máquina:
@@ -30,8 +30,8 @@ npm install
 Crie um arquivo chamado `.env` na raiz do projeto e configure a URL de conexão com o seu MongoDB:
 
 ```env
-PORT=3000
-MONGO_URI=mongodb://localhost:27017/nome-do-seu-banco
+PORT=5000
+MONGO_URI=mongodb://<seu_nome_de_usuario>:<sua_senha>@ac-aliee7l-shard-00-00.hqk0z04.mongodb.net:27017,ac-aliee7l-shard-00-01.hqk0z04.mongodb.net:27017,ac-aliee7l-shard-00-02.hqk0z04.mongodb.net:27017/?ssl=true&replicaSet=atlas-38i6lv-shard-0&authSource=admin&appName=NewClusterKrull"
 ```
 
 ### 4. Inicializando a Aplicação
@@ -44,7 +44,7 @@ npm run dev
 
 ---
 
-## 🌱 Script de População do Banco de Dados (Seed)
+## Script de População do Banco de Dados (Seed)
 
 Para popular rapidamente o seu MongoDB com 10 produtos iniciais, você pode utilizar o script Node.js abaixo. 
 
@@ -163,9 +163,9 @@ seedDB();
 
 ---
 
-## 📌 Endpoints Principais
+## Endpoints Principais
 
-- `GET /products` - Lista todos os produtos (suporta query params: `category`, `min`, `max`, `search`, `page`, `limit`).
+- `GET /products` - Lista todos os produtos (suporta query params: `category`, `min`, `max`, `search`).
 - `POST /products` - Cadastra um novo produto.
 - `PUT /products/:id` - Atualiza um produto existente.
 - `DELETE /products/:id` - Remove um produto pelo ID.
