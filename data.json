@@ -191,6 +191,8 @@
     "stock": 40,
     "specs": { "tamanho": "GG", "cor": "Cinza Mescla", "material": "Algodão e Poliéster" }
   },
+
+
   {
     "name": "Sanduicheira e Grill",
     "description": "Chapa dupla antiaderente para grelhar carnes e preparar lanches.",
@@ -199,6 +201,8 @@
     "stock": 35,
     "specs": { "potencia": "750W", "voltagem": "110V", "placas": "Onduladas" }
   },
+
+
   {
     "name": "Micro-ondas 20 Litros",
     "description": "Micro-ondas compacto com menu descongelar e prato giratório.",
@@ -207,6 +211,8 @@
     "stock": 10,
     "specs": { "capacidade": "20L", "potencia": "700W", "voltagem": "Bivolt" }
   },
+
+  
   {
     "name": "Livro: Dom Casmurro",
     "description": "A obra-prima de Machado de Assis e o mistério de Capitu.",
