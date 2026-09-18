@@ -1,0 +1,402 @@
+[
+  {
+    "name": "Smartphone Apex 12",
+    "description": "Celular com 128GB de armazenamento e câmera dupla de alta resolução.",
+    "price": 1499.99,
+    "category": "Eletrônicos",
+    "stock": 25,
+    "specs": { "marca": "Apex", "memoria": "128GB", "cor": "Preto", "tela": "6.5 polegadas" }
+  },
+  {
+    "name": "Smart TV LED 50'",
+    "description": "Televisor 4K UHD com sistema inteligente e bordas ultrafinas.",
+    "price": 2399.00,
+    "category": "Eletrônicos",
+    "stock": 10,
+    "specs": { "resolucao": "4K", "polegadas": 50, "voltagem": "Bivolt" }
+  },
+  {
+    "name": "Camiseta Básica Algodão",
+    "description": "Camiseta 100% algodão confortável para o dia a dia.",
+    "price": 49.90,
+    "category": "Roupas",
+    "stock": 100,
+    "specs": { "tamanho": "M", "cor": "Branco", "material": "Algodão" }
+  },
+  {
+    "name": "Calça Jeans Slim",
+    "description": "Calça jeans masculina com elastano para maior flexibilidade.",
+    "price": 119.90,
+    "category": "Roupas",
+    "stock": 45,
+    "specs": { "tamanho": 42, "cor": "Azul Escuro", "corte": "Slim" }
+  },
+  {
+    "name": "Liquidificador Turbo Inox",
+    "description": "Liquidificador de alta potência com copo de vidro resistente.",
+    "price": 189.99,
+    "category": "Casa e Cozinha",
+    "stock": 30,
+    "specs": { "potencia": "900W", "velocidades": 5, "voltagem": "220V" }
+  },
+  {
+    "name": "Cafeteira Elétrica Express",
+    "description": "Prepare seu café expresso cremoso em segundos.",
+    "price": 329.50,
+    "category": "Casa e Cozinha",
+    "stock": 15,
+    "specs": { "pressao": "15 bar", "cor": "Vermelho", "voltagem": "110V" }
+  },
+  {
+    "name": "Livro: O Código Limpo",
+    "description": "Guia prático para a arte da engenharia de software ágil.",
+    "price": 85.00,
+    "category": "Livros",
+    "stock": 60,
+    "specs": { "autor": "Robert C. Martin", "paginas": 425, "editora": "Alta Books" }
+  },
+  {
+    "name": "Livro: Arquitetura Limpa",
+    "description": "O guia definitivo para a arquitetura de software estruturada.",
+    "price": 92.50,
+    "category": "Livros",
+    "stock": 40,
+    "specs": { "autor": "Robert C. Martin", "paginas": 432, "editora": "Alta Books" }
+  },
+  {
+    "name": "Tênis de Corrida Runner Pro",
+    "description": "Tênis leve e com amortecimento avançado para corredores.",
+    "price": 299.90,
+    "category": "Esportes",
+    "stock": 50,
+    "specs": { "tamanho": 40, "cor": "Cinza/Laranja", "genero": "Unissex" }
+  },
+  {
+    "name": "Bola de Futebol Campo",
+    "description": "Bola oficial de campo costurada à mão com excelente durabilidade.",
+    "price": 110.00,
+    "category": "Esportes",
+    "stock": 20,
+    "specs": { "circunferencia": "68-70 cm", "material": "PU", "peso": "420g" }
+  },
+  {
+    "name": "Fone de Ouvido Bluetooth TWS",
+    "description": "Fones sem fio com cancelamento de ruído e estojo carregador.",
+    "price": 199.90,
+    "category": "Eletrônicos",
+    "stock": 80,
+    "specs": { "autonomia": "6 horas", "bluetooth": "5.2", "cor": "Preto" }
+  },
+  {
+    "name": "Notebook Ultra Slim 14'",
+    "description": "Notebook rápido e leve para estudos e trabalho corporativo.",
+    "price": 3200.00,
+    "category": "Eletrônicos",
+    "stock": 12,
+    "specs": { "processador": "Core i5", "ram": "8GB", "ssd": "256GB" }
+  },
+  {
+    "name": "Jaqueta Corta-Vento",
+    "description": "Jaqueta leve resistente à água para dias de vento e garoa.",
+    "price": 159.90,
+    "category": "Roupas",
+    "stock": 35,
+    "specs": { "tamanho": "G", "cor": "Preto", "impermeavel": true }
+  },
+  {
+    "name": "Vestido Midi Floral",
+    "description": "Vestido leve e elegante com estampa floral para o verão.",
+    "price": 139.90,
+    "category": "Roupas",
+    "stock": 22,
+    "specs": { "tamanho": "P", "estampa": "Floral", "comprimento": "Midi" }
+  },
+  {
+    "name": "Air Fryer 4L",
+    "description": "Fritadeira sem óleo digital com painel touch e timer.",
+    "price": 450.00,
+    "category": "Casa e Cozinha",
+    "stock": 18,
+    "specs": { "capacidade": "4 Litros", "potencia": "1500W", "voltagem": "220V" }
+  },
+  {
+    "name": "Jogo de Panelas Antiaderentes",
+    "description": "Conjunto com 5 peças em alumínio com revestimento interno.",
+    "price": 289.00,
+    "category": "Casa e Cozinha",
+    "stock": 25,
+    "specs": { "pecas": 5, "material": "Alumínio", "cor": "Grafite" }
+  },
+  {
+    "name": "Livro: Senhor dos Anéis (Edição Única)",
+    "description": "A clássica trilogia fantástica reunida em um só volume de capa dura.",
+    "price": 129.90,
+    "category": "Livros",
+    "stock": 15,
+    "specs": { "autor": "J.R.R. Tolkien", "paginas": 1216, "capa": "Dura" }
+  },
+  {
+    "name": "Livro: O Pequeno Príncipe",
+    "description": "Uma bela fábula sobre amizade, amor e o sentido da vida.",
+    "price": 34.90,
+    "category": "Livros",
+    "stock": 90,
+    "specs": { "autor": "Antoine de Saint-Exupéry", "paginas": 96, "capa": "Comum" }
+  },
+  {
+    "name": "Kit Halteres Ajustáveis 20kg",
+    "description": "Par de halteres com pesos removíveis para treino em casa.",
+    "price": 249.90,
+    "category": "Esportes",
+    "stock": 14,
+    "specs": { "pesoMaximo": "20kg", "material": "Ferro fundido", "ajustavel": true }
+  },
+  {
+    "name": "Tapete de Yoga Antiderrapante",
+    "description": "Tapete em TPE confortável e seguro para práticas de yoga e pilates.",
+    "price": 79.90,
+    "category": "Esportes",
+    "stock": 40,
+    "specs": { "espessura": "6mm", "material": "TPE", "cor": "Roxo" }
+  },
+  {
+    "name": "Mouse Gamer RGB",
+    "description": "Mouse ergonômico com 6 botões programáveis e ajuste de DPI.",
+    "price": 129.90,
+    "category": "Eletrônicos",
+    "stock": 55,
+    "specs": { "dpi": "6400", "conexao": "Com fio USB", "iluminacao": "RGB" }
+  },
+  {
+    "name": "Teclado Mecânico Compacto",
+    "description": "Teclado mecânico formato 60% com switches azuis.",
+    "price": 259.90,
+    "category": "Eletrônicos",
+    "stock": 30,
+    "specs": { "switch": "Blue", "layout": "ANSI", "iluminacao": "LED Branco" }
+  },
+  {
+    "name": "Bermuda Jeans Destroyed",
+    "description": "Bermuda moderna com rasgos estilizados para dias quentes.",
+    "price": 89.90,
+    "category": "Roupas",
+    "stock": 25,
+    "specs": { "tamanho": 38, "cor": "Claro", "estilo": "Destroyed" }
+  },
+  {
+    "name": "Moletom Canguru com Capuz",
+    "description": "Moletom flanelado super quente com bolso frontal e capuz.",
+    "price": 149.90,
+    "category": "Roupas",
+    "stock": 40,
+    "specs": { "tamanho": "GG", "cor": "Cinza Mescla", "material": "Algodão e Poliéster" }
+  },
+  {
+    "name": "Sanduicheira e Grill",
+    "description": "Chapa dupla antiaderente para grelhar carnes e preparar lanches.",
+    "price": 99.90,
+    "category": "Casa e Cozinha",
+    "stock": 35,
+    "specs": { "potencia": "750W", "voltagem": "110V", "placas": "Onduladas" }
+  },
+  {
+    "name": "Micro-ondas 20 Litros",
+    "description": "Micro-ondas compacto com menu descongelar e prato giratório.",
+    "price": 549.00,
+    "category": "Casa e Cozinha",
+    "stock": 10,
+    "specs": { "capacidade": "20L", "potencia": "700W", "voltagem": "Bivolt" }
+  },
+  {
+    "name": "Livro: Dom Casmurro",
+    "description": "A obra-prima de Machado de Assis e o mistério de Capitu.",
+    "price": 29.90,
+    "category": "Livros",
+    "stock": 75,
+    "specs": { "autor": "Machado de Assis", "paginas": 208, "editora": "Zahar" }
+  },
+  {
+    "name": "Livro: 1984",
+    "description": "O clássico romance distópico sobre vigilância estatal e controle.",
+    "price": 44.90,
+    "category": "Livros",
+    "stock": 50,
+    "specs": { "autor": "George Orwell", "paginas": 328, "anoLancamento": 1949 }
+  },
+  {
+    "name": "Mochila para Notebook Impermeável",
+    "description": "Mochila executiva com entrada USB integrada e compartimento acolchoado.",
+    "price": 189.90,
+    "category": "Esportes",
+    "stock": 28,
+    "specs": { "capacidade": "25L", "cor": "Preto", "compartimentoLaptop": "15.6 polegadas" }
+  },
+  {
+    "name": "Garrafa Térmica Inox 1L",
+    "description": "Mantém líquidos gelados por até 24 horas ou quentes por até 12 horas.",
+    "price": 119.90,
+    "category": "Esportes",
+    "stock": 60,
+    "specs": { "capacidade": "1 Litro", "material": "Aço Inox", "cor": "Azul Metálico" }
+  },
+  {
+    "name": "Monitor Gamer 27' 144Hz",
+    "description": "Monitor com taxa de atualização de 144Hz e tempo de resposta de 1ms.",
+    "price": 1450.00,
+    "category": "Eletrônicos",
+    "stock": 8,
+    "specs": { "resolucao": "Full HD", "taxaAtualizacao": "144Hz", "painel": "IPS" }
+  },
+  {
+    "name": "Caixa de Som Bluetooth à Prova D'água",
+    "description": "Som potente em formato compacto com certificação IPX7.",
+    "price": 220.00,
+    "category": "Eletrônicos",
+    "stock": 40,
+    "specs": { "potencia": "20W", "bateria": "10 horas", "protecao": "IPX7" }
+  },
+  {
+    "name": "Camisa Polo Masculina",
+    "description": "Camisa polo em piquet com gola e punhos ajustados.",
+    "price": 79.90,
+    "category": "Roupas",
+    "stock": 50,
+    "specs": { "tamanho": "G", "cor": "Azul Marinho", "manga": "Curta" }
+  },
+  {
+    "name": "Saia Midi Plissada",
+    "description": "Saia elegante com caimento leve e cós elástico.",
+    "price": 109.90,
+    "category": "Roupas",
+    "stock": 20,
+    "specs": { "tamanho": "M", "cor": "Verde Oliva", "estilo": "Plissada" }
+  },
+  {
+    "name": "Fritadeira Air Fryer Oven 12L",
+    "description": "Forno e fritadeira elétrica multifuncional com visor transparente.",
+    "price": 799.00,
+    "category": "Casa e Cozinha",
+    "stock": 7,
+    "specs": { "capacidade": "12L", "potencia": "1800W", "voltagem": "110V" }
+  },
+  {
+    "name": "Jogo de Facas em Inox 6 Peças",
+    "description": "Facas profissionais com suporte em madeira e cabo ergonômico.",
+    "price": 159.90,
+    "category": "Casa e Cozinha",
+    "stock": 25,
+    "specs": { "quantidade": 6, "material": "Aço Inox", "suporte": "Madeira" }
+  },
+  {
+    "name": "Livro: A Revolução dos Bichos",
+    "description": "Uma sátira mordaz sobre o poder e a corrupção política.",
+    "price": 39.90,
+    "category": "Livros",
+    "stock": 65,
+    "specs": { "autor": "George Orwell", "paginas": 152, "editora": "Companhia das Letras" }
+  },
+  {
+    "name": "Livro: O Poder do Hábito",
+    "description": "Como a ciência do hábito funciona na vida pessoal e profissional.",
+    "price": 59.90,
+    "category": "Livros",
+    "stock": 45,
+    "specs": { "autor": "Charles Duhigg", "paginas": 408, "capa": "Comum" }
+  },
+  {
+    "name": "Corda de Pular Profissional",
+    "description": "Corda com rolamento de alta velocidade para treinos funcionais e Crossfit.",
+    "price": 49.90,
+    "category": "Esportes",
+    "stock": 70,
+    "specs": { "material": "Cabo de Aço", "ajustavel": true, "cor": "Vermelho" }
+  },
+  {
+    "name": "Kit de Faixas Elásticas (Resistência)",
+    "description": "Conjunto com 5 mini bands de diferentes intensidades para musculação.",
+    "price": 39.90,
+    "category": "Esportes",
+    "stock": 85,
+    "specs": { "niveis": 5, "material": "Látex natural", "incluso": "Bolsa de transporte" }
+  },
+  {
+    "name": "Webcam Full HD 1080p",
+    "description": "Webcam com microfone embutido ideal para reuniões e aulas online.",
+    "price": 179.90,
+    "category": "Eletrônicos",
+    "stock": 33,
+    "specs": { "resolucao": "1080p", "fps": 30, "conexao": "USB Plug and Play" }
+  },
+  {
+    "name": "Carregador Portátil Power Bank 10000mAh",
+    "description": "Bateria portátil compacta com duas saídas USB para carregar o celular.",
+    "price": 99.90,
+    "category": "Eletrônicos",
+    "stock": 60,
+    "specs": { "capacidade": "10000mAh", "portas": 2, "cor": "Branco" }
+  },
+  {
+    "name": "Blazer Feminino Alfaiataria",
+    "description": "Blazer estruturado elegante para compor looks formais ou casuais.",
+    "price": 199.90,
+    "category": "Roupas",
+    "stock": 18,
+    "specs": { "tamanho": "P", "cor": "Bege", "forro": "Sim" }
+  },
+  {
+    "name": "Shorts Esportivo Masculino",
+    "description": "Shorts leve em poliéster com bolsos laterais para corrida e academia.",
+    "price": 49.90,
+    "category": "Roupas",
+    "stock": 50,
+    "specs": { "tamanho": "G", "cor": "Preto", "possuiCores": true }
+  },
+  {
+    "name": "Batedeira Planetária 3L",
+    "description": "Batedeira com múltiplos níveis de velocidade e tigela dupla.",
+    "price": 389.00,
+    "category": "Casa e Cozinha",
+    "stock": 12,
+    "specs": { "potencia": "600W", "capacidadeTigela": "3 Litros", "voltagem": "220V" }
+  },
+  {
+    "name": "Espremedor de Frutas Elétrico",
+    "description": "Espremedor prático para suco de laranja e limão rápido.",
+    "price": 79.90,
+    "category": "Casa e Cozinha",
+    "stock": 40,
+    "specs": { "potencia": "35W", "capacidadeJarra": "750ml", "voltagem": "Bivolt" }
+  },
+  {
+    "name": "Livro: Sapiens: Uma Breve História da Humanidade",
+    "description": "Uma jornada fascinante pela evolução da espécie humana.",
+    "price": 69.90,
+    "category": "Livros",
+    "stock": 38,
+    "specs": { "autor": "Yuval Noah Harari", "paginas": 464, "editora": "L&PM" }
+  },
+  {
+    "name": "Livro: Pai Rico, Pai Pobre",
+    "description": "O que os ricos ensinam a seus filhos sobre dinheiro.",
+    "price": 54.90,
+    "category": "Livros",
+    "stock": 55,
+    "specs": { "autor": "Robert T. Kiyosaki", "paginas": 336, "editora": "Alta Books" }
+  },
+  {
+    "name": "Kit Caneleiras de Peso 3kg",
+    "description": "Par de peso para tornozelo indicado para fortalecimento de pernas.",
+    "price": 65.00,
+    "category": "Esportes",
+    "stock": 22,
+    "specs": { "pesoCada": "3kg", "material": "Nylon resistente", "fechamento": "Velcro" }
+  },
+  {
+    "name": "Luvas de Boxe / Muay Thai",
+    "description": "Luvas anatômicas com espuma de alta absorção de impacto.",
+    "price": 149.90,
+    "category": "Esportes",
+    "stock": 15,
+    "specs": { "tamanho": "14OZ", "material": "Couro Sintético", "cor": "Preto/Dourado" }
+  }
+]
