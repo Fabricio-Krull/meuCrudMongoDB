@@ -2,12 +2,13 @@ import Product from "../models/productModel.js";
 
 export async function createProduct(req, res) {
     try{
-        const { name, price, category, stock, specs } = req.body;
+        const { name, price, category, stock, description, specs } = req.body;
         const newProduct = new Product({
             name,
             price,
             category,
             stock,
+            description,
             specs
         });
         await newProduct.save();
